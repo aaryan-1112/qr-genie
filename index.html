@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>QR Genie</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>QR Genie</h1>
+    <input type="text" id="qrText" placeholder="Enter text or URL" />
+    <button onclick="generateQR()">Generate QR</button>
+    <div id="qrOutput">
+      <img id="qrImage" src="" alt="QR Code" />
+    </div>
+  </div>
+
+  <script src="qr.js"></script>
+</body>
+</html>
